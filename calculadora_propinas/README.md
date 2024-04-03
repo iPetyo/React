@@ -21,8 +21,8 @@ You can see a live demo of the project [here](https://660db36def5aae3f46ddb631--
 ## Contributing
 If you'd like to contribute to this project, please follow these steps:
 
-Fork the project.
-Create a new branch (git checkout -b feature/new-feature).
-Make your changes and commit them (git commit -am 'Add a new feature').
-Push your branch (git push origin feature/new-feature).
-Open a Pull Request.
+1. Fork the project.
+2. Create a new branch (git checkout -b feature/new-feature).
+3. Make your changes and commit them (git commit -am 'Add a new feature').
+4. Push your branch (git push origin feature/new-feature).
+5. Open a Pull Request.
