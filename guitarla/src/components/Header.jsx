@@ -1,7 +1,6 @@
-import { useMemo } from "react"
 import PropTypes from "prop-types";
 
-export default function Header({ cart, removeFromCart, increaseQuantity, decreaseQuantity , cleanCart}) {
+export default function Header({ cart, removeFromCart, increaseQuantity, decreaseQuantity, cleanCart, isEmpty, cartTotal }) {
 
     Header.propTypes = {
         cart: PropTypes.arrayOf(
@@ -18,10 +17,9 @@ export default function Header({ cart, removeFromCart, increaseQuantity, decreas
         increaseQuantity: PropTypes.func.isRequired,
         decreaseQuantity: PropTypes.func.isRequired,
         cleanCart: PropTypes.func.isRequired,
+        isEmpty: PropTypes.number.isRequired,
+        cartTotal : PropTypes.number.isRequired
     };
-
-    const isEmpty = useMemo(() => cart.length === 0, [cart])
-    const cartTotal = useMemo(() => cart.reduce((total, item) => total + (item.quantity * item.price), 0), [cart])
 
     return (
         <>
