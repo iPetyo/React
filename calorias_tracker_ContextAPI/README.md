@@ -1,6 +1,6 @@
 # React + TypeScript + Vite
 
-This project is a web application developed using React and Vite. Tailwind CSS has been utilized for the interface design.
+This project is a web application developed using React and Vite. Tailwind CSS has been utilized for the interface design. In addition to leveraging React's useReducer for managing the application state, I've also incorporated React's Context API for efficiently managing global state and passing data through the component tree.
 
 ## Live Demo
 
@@ -13,6 +13,7 @@ You can see a live demo of the project [here](https://6613c8b62f17ff8837c01960--
 - **Tailwind CSS**: Utility-first CSS framework for creating rapid and customizable designs.
 - **TypeScript**: Programming language that adds static types to JavaScript to improve code productivity and scalability.
 - **React Reducers:**: React reducers have been used for certain project functionality.
+- **Context API**: Context API has been utilized for managing global state and passing data through the component tree efficiently.
 
 ## Installation
 
